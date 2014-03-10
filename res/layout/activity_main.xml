@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Button" />
+        android:text="bubble" />
 
     <TextView
         android:id="@+id/textView1"
@@ -25,5 +25,15 @@
         android:layout_marginLeft="18dp"
         android:layout_marginTop="16dp"
         android:text="TextView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="quick" />
 
 </RelativeLayout>
